@@ -40,4 +40,5 @@ public class CalculatorController {
     public String showDivide(@RequestParam int num1, @RequestParam int num2) {
         return num1 + " / " + num2 + " = " + calculatorService.getDivide(num1, num2);
     }
+//    не использовал приватный метод BuildResponse, так как в данном задании нет необходимости.
 }
